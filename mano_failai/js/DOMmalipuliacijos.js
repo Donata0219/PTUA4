@@ -33,13 +33,13 @@ mygtukas.addEventListener('click', function() {
 
 //4 uzduotis
 
-
-for (let i = 0; i < imgTaguSkaicius; i+=2) {
-  let paveikslelis = imgTagai[i]
-//    paveiksleliai[i].setAttribute('alt', 'testas');
-    paveikslelis.alt = 'Testas'
-
-}
+//
+//for (let i = 0; i < imgTaguSkaicius; i+=2) {
+//  let paveikslelis = imgTagai[i]
+////    paveiksleliai[i].setAttribute('alt', 'testas');
+//    paveikslelis.alt = 'Testas'
+//
+//}
 
 
 
