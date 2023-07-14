@@ -1,14 +1,14 @@
-// document.querySelector("#paragrafas").textContent = "Pakeistas tekstas";
-// document.querySelector("main").textContent = "Naujas main lorem 200"
-//
-//
-//const sarasoElementai = document.querySelectorAll("#elementas li");
-//
-//for (let i = 0; i < sarasoElementai.length; i++) {
-//    let elementas = sarasoElementai[i];
-//    let naujasTekstas = "Naujas tekstas " + i;
-//    elementas.innerHTML = naujasTekstas;
-//}
+ document.querySelector("#paragrafas").textContent = "Pakeistas tekstas";
+ document.querySelector("main").textContent = "Naujas main lorem 200"
+
+
+const sarasoElementai = document.querySelectorAll("#elementas li");
+
+for (let i = 0; i < sarasoElementai.length; i++) {
+    let elementas = sarasoElementai[i];
+    let naujasTekstas = "Naujas tekstas " + i;
+    elementas.innerHTML = naujasTekstas;
+}
 
 // 1 uzduotis
 const imgTagai = document.getElementsByTagName('img');
@@ -49,3 +49,5 @@ elementas.style.fontSize = '24px';
 elementas.style.backgroundColor = 'green';
 elementas.style.width = '200px';
 elementas.style.height = '200px';
+
+

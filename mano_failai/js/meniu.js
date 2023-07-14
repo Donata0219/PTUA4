@@ -21,7 +21,22 @@ document.addEventListener('DOMContentLoaded', function() {
             pavadinimas: 'tax',
             nuoroda: 'tax.html',
             klases: 'meniu_item',
-        }
+        },
+        {
+            pavadinimas: 'number',
+            nuoroda: 'numbers.html',
+            klases: 'meniu_item',
+        },
+        {
+            pavadinimas: 'payment',
+            nuoroda: 'payment_form.html',
+            klases: 'meniu_item',
+        },
+        {
+            pavadinimas: 'darbas',
+            nuoroda: 'darbas.html',
+            klases: 'meniu_item',
+        },
     ];
 
     let busimoMeniuDOMElementai = document.querySelectorAll('.meniu');

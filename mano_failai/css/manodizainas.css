@@ -33,3 +33,17 @@ main{
 .meniu_item:last-child {
     border-right: none;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  width: 400px;
+  margin: 50px auto;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+}
